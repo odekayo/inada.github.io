@@ -1,0 +1,388 @@
+@charset "UTF-8";
+
+*{
+   margin:0;
+   padding: 0;
+   border: 0;
+   line-height: 0;
+   text-decoration: none;
+}
+body{
+	background: #f2f2cc !important;
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+main{
+	background-image: url("../images/空01.jpg");
+	width: 1200px;
+	height: 600px;
+	margin-bottom: 1800px;   /*	元画像と重ならないように入れた→後で消す？*/
+}
+.dai0{   /*タイトルの一番大きいBOX*/
+	width: 900px;
+	height: 100px;
+	margin:  30px auto;
+	margin-bottom: 60px;
+	border-radius: 50px;
+	background:#fff;
+	box-shadow:  1px 2px 3px #ebd683;
+}
+.bun0{  /*医院名・TEL・住所*/
+	color: #0071bc;
+	padding: 50px 70px;
+	font-family: 'Kosugi Maru', sans-serif;
+	text-shadow: 1px 2px 3px #91acbe;
+	font-size: 44px;
+	letter-spacing: 0.1em;
+	float: left;
+}
+.bun00{   /*TEL・住所のBOX　*/
+	padding-top:10px;
+}
+#tel{
+	font-size: 24px;
+	font-family: 'Kosugi Maru', sans-serif;
+	line-height: 35px;
+	text-align: left;
+	margin-left: 10px;
+	color: #0071bc;
+	font-weight: bolder;
+}
+.bun01{   /*　タイトル下のメッセージ　*/
+	font-size: 18px;
+	font-family: 'Kosugi Maru', sans-serif;
+	text-shadow: 1px 2px 3px #fff;
+	color: #0071bc;
+	text-align: center;
+	padding-top: 40px;
+}
+address{
+	color: #0071bc;
+	font-family: 'Kosugi Maru', sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 25px;
+}
+nav{
+	text-align: center;
+}
+.btn1{
+	width: 185px;
+	height: 185px;
+	background-color:#a0ea83;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px -1px #707070,1px 1px 4px rgba(255,255,255,0.8) inset;
+	color:#fff;
+	margin-right: 3px;
+}
+.btn2{
+	width: 185px;
+	height: 185px;
+	background-color:#eb83be;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px -1px #707070,1px 1px 4px rgba(255,255,255,0.8) inset;
+	color:#fff;
+	margin-right: 3px;
+}
+.btn3{
+	width: 185px;
+	height: 185px;
+	background-color:#83caeb;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px -1px #707070,1px 1px 4px rgba(255,255,255,0.8) inset;
+	color:#fff;
+	margin-right: 3px;
+}
+.btn4{
+	width: 185px;
+	height: 185px;
+	background-color:#ebd683;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px -1px #707070,1px 1px 4px rgba(255,255,255,0.8) inset;
+	color:#fff;
+	margin-right: 3px;
+}
+.btn5{
+	width: 185px;
+	height: 185px;
+	background-color:#eb9583;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px -1px #707070,1px 1px 4px rgba(255,255,255,0.8) inset;
+	color:#fff;
+	margin-right: 3px;
+}
+.btn1-1{    /*全ボタン画像位置*/
+	padding: 30px;
+	margin: 0 auto;
+}
+.btn-bun{   /*ボタンの名前*/
+	color: #fff;
+	font-size: 24px;
+	font-family: 'Kosugi Maru', sans-serif;
+	letter-spacing: 5px;
+	padding-top:10px;
+	font-weight: bolder;
+}
+.btn-bun0{   /*ボタンの名前*/
+	color: #fff;
+	font-size: 24px;
+	font-family: 'Kosugi Maru', sans-serif;
+	letter-spacing: 2px;
+	padding-top:10px;
+	font-weight: bolder;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline-block;
+}
+.main_p{
+	width: 960px;
+	margin: 30px auto;
+}
+.btn1:hover{
+	opacity: 0.6 ;
+}
+.btn2:hover{
+	opacity: 0.6 ;
+}
+.btn3:hover{
+	opacity: 0.6 ;
+}
+.btn4:hover{
+	opacity: 0.6 ;
+}
+.btn5:hover{
+	opacity: 0.6 ;
+}
+.news-box{    /*お知らせタイトルのBOX*/
+	width: 1200px;
+	height: 80px;
+	background-color: #dedede;	
+}
+.news_box2{   /*お知らせアイコン画像*/
+	float: left;
+	padding:27px 0 0 170px;
+}
+.news{     /*「お知らせ」テキスト*/
+	font-size: 30px;
+	font-family: 'Kosugi Maru', sans-serif;
+	/*	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif"*/
+	letter-spacing: 2px;
+	color:#4f4f4f;
+	padding: 40px 0 0 210px;
+}
+.box{  /* ニュースの全てのdlを囲ってる */
+/*	display: flex;*/
+	width: 900px;
+	height: auto;  /* お知らせの白部分の長さ*/
+	margin: 0 auto;
+	border-radius: 30px;
+	background-color: #fff;
+	padding: 30px 50px;	
+}
+dl{   /* 日付と内容の個々のBOX */
+	border-bottom: 1px #dedede dashed !important;
+	margin-bottom: 3px !important;
+}
+dt{
+	font-family:	
+	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+	line-height: 30px;
+	color:#83caeb;
+	font-weight: bold;
+	font-size: 20px;
+	float: left;
+	width:190px;
+}
+.news_bun{
+	font-family:	
+	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+	line-height: 35px;
+	color: #606060;
+	font-size:16px;
+	margin-left: 200px !important;
+}
+.box .new::after {      /* NEWマーク*/
+   content: "NEW";
+   margin-left: 20px;
+   color: #fff;
+   background: red;
+   padding: 3px 3px;
+   font-size:10px;
+	height: auto;	
+}
+.ban_box{   /* 日付と内容の個々のBOX */
+	margin-bottom: 3px !important;
+	background: lightpink;
+	border-radius: 10px;
+}
+.ban_bun{
+	font-family:	
+	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+	line-height: 35px;
+	color: #606060;
+	font-size:18px;
+	width: 300px;
+	height: auto;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+/*小児科医からの一口メモ↓*/
+.memo-kuma{
+    display: flex;
+	justify-content:center;
+	margin:50px 0px; 
+}
+.memo{
+    width:587px; 
+}
+.a001{
+	width:587px;
+	height: 80px;
+	background-color: #dedede;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	font-family: 'Kosugi Maru', sans-serif;
+	/*	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif"*/
+	letter-spacing: 2px;
+	color:#4f4f4f;
+	line-height: 30px;
+}
+.a_bun1{
+	font-family: 'Kosugi Maru', sans-serif;
+	/*	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif"*/
+	letter-spacing: 2px;
+	color:#4f4f4f;
+	line-height: 30px;
+	float: left;
+	font-size: 22px;
+	padding: 25px 0px 0 70px;
+}
+.a_bun2{
+	font-family: 'Kosugi Maru', sans-serif;
+	/*	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif"*/
+	letter-spacing: 1px;
+	color:#4f4f4f;
+	line-height: 30px;
+	float: left;
+	padding: 25px 0px 0 100px;
+}
+.dai{   /*  一口メモのタイトル　*/
+	text-align: center;
+	font-family:	
+	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+	color: #eb83be;
+	font-size: 20px;
+	line-height: 60px;
+	font:bolder;
+	background: #FFFFFF;
+	clear: both;
+}
+.bun{   /*  一口メモの内容　*/
+	font-family:	
+	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+	color: #4f4f4f;
+	font-size: 16px;
+	line-height: 35px;
+	background: #FFFFFF;
+	padding: 0px 30px;
+	height: 250px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.a_icon{
+	width: 1em;
+	float: left;
+	padding: 27px 0px 0 10px;
+}
+.kuma{
+	margin-top: 100px;
+}
+.map-box{    /*周辺地図タイトルのBOX*/
+	width: 1200px;
+	height: 80px;
+	background-color: #dedede;	
+}
+.map_box2{   /*四角アイコン画像*/
+	float: left;
+	padding:20px 0 0 170px;
+}
+.map_text{     /*「周辺地図」テキスト*/
+	font-size: 30px;
+	font-family: 'Kosugi Maru', sans-serif;
+	/*	"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif"*/
+	letter-spacing: 2px;
+	color:#4f4f4f;
+	padding: 40px 0 0 210px;
+}
+.map02{
+	margin: 0 auto;
+	width: 900px;
+
+}
+.time{   /*  診療時間BOX　*/
+	text-align: center;
+	margin-bottom: 50px;
+}
+.foot_box{
+	width: 1140px;
+	height: 200px;
+	background-color: #83caeb;
+	padding: 30px;	
+}
+.foot_text{    /*サイトマップのテキスト*/
+	color: #ffffff;
+	font-size:16px;
+	font-family: 'Kosugi Maru', sans-serif; 
+	font-weight: bold;
+	letter-spacing: 4px;
+	line-height: 12px;
+	float: left;
+	border-right:2px #ffffff solid;
+	padding: 0 20px;
+	height: 16px;
+}
+.foot_text:last-child{   /*サイトマップの一番右のボーダー線消す*/
+	border: none;
+}
+.foot_text2{   /* プライバシーポリシーのテキスト */
+	color: #ffffff;
+	font-size:20px;
+	font-family: 'Kosugi Maru', sans-serif;
+	letter-spacing: 4px;
+	line-height: 30px;
+	margin: 0 auto;
+	width: 200px;
+}
+.foot_text3{     /* ホームにもどるのテキスト */
+	color: #ffffff;
+	font-size:20px;
+	font-family: 'Kosugi Maru', sans-serif;
+	font-weight: bold;
+	letter-spacing: 4px;
+	line-height: 30px;
+}
+.foot01{    /* サイトマップのBOX */
+	width:800px; 
+	height: 50px;
+	margin: 0 auto;
+/* text-align: center;   　効かない　なぜ？*/	
+}
+.foot02{   /* プライバシーポリシーのテキスト */
+	padding-top: 30px;
+	text-align: center;
+}
+.foot03{   /* TOPにもどるBOX */
+	width:200px;
+	margin: 0 auto;
+	margin-top:70px; 
+
+}
+
+
+
+
